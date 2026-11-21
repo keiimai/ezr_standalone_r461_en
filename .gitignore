@@ -1,0 +1,6 @@
+# --- Kept only locally, not in Git (added when the Zip is made; README "Running from the repository") ---
+/runtime
+/Start EZR.app/
+/THIRD_PARTY.md
+/.state/
+.DS_Store

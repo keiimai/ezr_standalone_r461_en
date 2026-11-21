@@ -1,0 +1,10 @@
+# --- System packages the research project adds (Layers 4–5 extension point) (DOCKER.md §2) ---
+# libudunits2-dev   # e.g. units (used by sf)
+# libgdal-dev       # e.g. sf
+# libmagick++-dev   # e.g. magick
+tk8.6-dev                    # R tcltk (used by Rcmdr, which EZR is built on)
+tigervnc-standalone-server   # virtual display that draws the EZR screen
+novnc                        # shows that screen in the browser (also installs websockify)
+fluxbox                      # window manager (title bars, moving windows, the background cursor)
+libglpk-dev                  # igraph (used by netmeta in EZR)
+libglu1-mesa-dev             # rgl (Rcmdr 3D graphs)
